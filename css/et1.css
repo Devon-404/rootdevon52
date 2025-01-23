@@ -1,0 +1,50 @@
+*{
+    margin: 2px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.44rem;
+}
+
+#content figure img{
+width:100%; 
+}
+
+/* #content figure figcaption{
+    align-items: center;
+    justify-content: center;
+    margin-top:40%;
+
+} */
+
+
+#gallery{
+    background-color: rgba(128, 128, 128, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.44rem; 
+}
+
+@media screen and (min-width:450px) {
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:900px) {
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#header{
+    text-align: center;
+    text-size-adjust: 30px;
+    text-shadow: 8px;
+}

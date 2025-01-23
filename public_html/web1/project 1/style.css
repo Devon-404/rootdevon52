@@ -1,0 +1,176 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Abel", sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: rgb(89, 50, 22);
+    
+    background-color: azure;
+    background-image: url(../img/nathan-anderson-pTgMXg2WrHY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    width: 100%;
+    height: 187px;
+    background-color: rgba(250, 235, 215, 1.0);
+    padding: 20px;
+    /* position:fixed; */
+}
+
+#title-box h1{
+    position: relative;
+    left: 40px;
+    top: -35px;
+}
+
+#title-box p{
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+
+nav {
+    position: relative;
+    /* right: 10px; */
+    left: calc(100% - 400px);
+    top:-60px;
+    /* font-size: 22px; */
+    color: #212121;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+}
+nav a{
+    font-size: 2.0em;
+    text-decoration: none;
+    color: #636363;
+}
+nav a:visited {
+    color: #63006a;
+}
+nav a:hover {
+    color: rgb(14, 14, 14);
+}
+
+
+#banner {
+    background-image: url(../img/mountain:lake.avif);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+
+}
+
+main, footer {
+    padding: 20px;
+}
+
+main article p {
+    /* max-width: 60ch; */
+    max-width: 1000px;
+}
+main {
+    background-color: rgba(255, 255, 240, 0.217);
+    padding-top: 197px;
+}
+footer {
+    background-color: rgba(197, 197, 197, 0.304);
+}
+
+.fancy-button {
+    background-color: aquamarine;
+    padding: 20px 35px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px #0000007b;
+    border: 12px double yellow;
+    color: black;
+    font-weight: bold;
+}
+.fancy-button:hover {
+    background-color: white;
+    color: blue;
+    rotate: 2deg;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    gap: 22px;
+}
+
+.gallery figure img{
+    width: 100%;
+}
+
+#logo {
+    position: relative;
+    top: 41px;
+    left: -24px;
+}
+#title-box {
+    position: relative;
+    top: -50px;
+    left: 10px;
+}
+
+h1 {
+    /* Devon's Design Lab */
+    font-family: 'Revalia';
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+
+}
+#title-box p{
+    color: #212121;
+    font-size: 20px;
+    margin-top: -10px;
+}
+button {
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: grey;
+    margin-top: 20vh;
+    border: none;
+}
+footer {
+    text-align: center;
+}
+
+footer img {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:487px) 
+{
+    nav{
+        left:20px ;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 60px; /* Smaller logo on smaller screens */
+    }
+}
+            

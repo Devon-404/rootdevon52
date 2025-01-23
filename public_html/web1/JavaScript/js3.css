@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(110,9,30,1) 100%);
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in;
+    transform-origin: center;
+}
+.square{
+    border-radius: unset;
+}
+.circle.move-me {
+    transform: rotate(45deg) translateX(400px) scale(1.3);
+}

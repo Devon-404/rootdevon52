@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 | My Character</title>
+    <link rel="stylesheet" href="project2.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1>Skelo Man</h1>    
+<img src="img/web character1.svg" alt="" width="20%" id="Skelo">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius repudiandae officia error beatae voluptate quos in facere ut natus quo eveniet delectus, voluptatibus sapiente corporis aspernatur, eaque praesentium. Nesciunt, expedita?</p>
+
+<div id="panel">click to open</div>
+
+<script>
+    const myPannel = document.getElementById ("panel")
+    const sound = new Audio ("sound/slide-up")
+    myPannel.onclick = function(){
+        myPannel.classList.toggle('slide-up')
+    }
+</script>
+
+<h2>The Design proccess</h2>
+<img src="img/the procces.png" width="600x" alt="">
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius repudiandae officia error beatae voluptate quos in facere ut natus quo eveniet delectus, voluptatibus sapiente corporis aspernatur, eaque praesentium. Nesciunt, expedita?</p>
+
+<br>
+
+<button id="game" onclick="top.location.href='./project3/project 3.html'">Play Game</button>
+</body>
+
+</html>

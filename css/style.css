@@ -1,0 +1,78 @@
+/* Basic Reset */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-boxs;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+line-height: 44px;
+color: rgb(0, 0, 0);
+background-image: url(./mountain:lake.avif);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+header{
+width: 100;
+height: 150;
+background-color: rgba(210, 180, 140, 0.546);
+padding: 20px;
+align-content: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+main, footer{
+    padding: 20px;
+}
+
+main article p {
+    /* max-widh 60ch; */
+    max-width: 1000px;
+
+}
+
+main {
+    background-color: rgba(255, 255, 240, 0.441);
+}
+
+.fancybutton{
+background-color: aqua;
+padding: 20px 35px;
+border-radius: 10px;
+
+}
+
+.fancybutton:hover{
+    background-color: aquamarine;
+
+
+
+
+
+}
+
+    /* styling the forms*/
+
+    input[type=text],
+    input[type=password],
+    input[type=submit],
+    textarea {
+        display:block;
+        padding: 10px;
+        border: 1px solid blue;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        width: 260px;
+    }

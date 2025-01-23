@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-demo 1</title>
+    <style>
+        body{background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <h1>JavaScript - Demo 1</h1>
+
+   <button onclick="eaglescream()">KILOMETER</button>
+    <main id="content"></main>
+    <script>
+
+        alert("Hello world")
+
+        console.log("page loaded successfully!")
+        
+        // Variables
+        // dynamic variable type "let" (data can be changed)
+       
+        let myName = "Devon"
+        console.log(myName)
+
+        // constant variable (data cant be changed)
+        const pi = 3.14159;
+
+        console.log(pi * 5);
+
+        console.log("pi times 5: " + pi*5);
+
+        let mySound = new Audio ("../sounds/eagle-scream-112940.mp3")
+        let myContainer= document.getElementById("content")
+        function eaglescream () {
+            // alert(eaglescream)
+            mySound.play()
+            myContainer.innerHTML='Mericuh'
+        }
+
+
+       
+    </script>
+
+
+
+</body>
+</html>

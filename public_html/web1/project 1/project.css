@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(50, 76, 77);
+    text-align: center;
+    font-size: 16px;
+    /* rotate: 1deg; */
+    min-height: 150vh;
+}
+
+h1 {
+    font-family: 'Handjet', cursive;
+    font-size: 60px;
+
+}
+h2{
+    font-family: 'Handjet', cursive;
+    font-size: 30px;
+}
+h2#name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h1 img:first-child {
+    position: absolute;
+    left: calc(50% - 190px);
+}
+
+header {
+    background-color:white;
+    /* width: 300px; */
+    height: 200px;
+    /* padding: 20px; */    
+    /* padding: 20px 30px; */
+    padding: 12px 23px 40px 30px;
+    /* text-align: center; */
+
+}
+nav {
+    /* background-color: cyan; */
+    font-family: 'Handjet', cursive;
+    font-size: 26px;
+    
+}
+ul {
+    /* list-style: none; */
+}
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: goldenrod;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(139, 105, 18);
+    text-decoration: underline;
+}
+
+#intro{
+    background-color: rgb(220, 255, 246);
+    height: 200px;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+footer{
+    background-color: rgb(190, 137, 190);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+/* GRID */
+.wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 40px;
+    padding:20px;
+}
+
+.grid-item{
+    background-color: #D9D9D9;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 40px;
+}
+
+.grid-item img{
+    width: 100%;
+    border-radius: 40px;
+    border-bottom-left-radius: 0px;
+}
+.grid-item p{
+    padding: 25px;
+    padding-top: 2px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+    .wrapper {        
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {        
+        grid-template-columns: 1fr;
+    }
+}
