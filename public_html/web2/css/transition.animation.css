@@ -1,0 +1,35 @@
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 60px;
+
+}
+
+img{
+    width: 500px;
+    justify-content: center;
+}
+
+
+a:link {
+    transition: color 0.5s;
+}
+
+img{
+    opacity: 0.01;
+    transition: opacity 500ms ;
+    transition: 1.s;
+
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+body{
+    margin:auto;
+    width: 100%;
+    text-align: center
+}
