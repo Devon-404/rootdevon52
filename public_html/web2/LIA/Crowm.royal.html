@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crown Royal</title>
+  <link rel="stylesheet" href="LIA.css"/>
+
+
+</head>
+<body>
+  <div class="landing-panel" id="landing">
+    <h1>Crown Royal</h1>
+    <h2>The Generous Spirit</h2>
+    <button id="enter-btn">Enter</button>
+  </div>
+
+  <div class="main-content" id="main">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+
+      <figure class="logo-container">
+        <img src="./assets/cr-logo.png" alt="Crown Royal Logo" class="logo" />
+      </figure>
+
+      <nav>
+        <ul>
+          <li><a href="flavors.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Whats New</h2>
+      </section>
+
+      <section id="cards">
+        
+        <a href="buypage.html" aria-label="Buy Crown Royal Whisky">
+          <article>
+            <figure>
+              <img src="./assets/render.jpg" alt="">
+              <img src="./assets/render back.png" class="over" alt="">
+            </figure>
+            <section>
+              <h3>Fine De Luxe</h3>
+              <p>New Label!</p>
+            </section>
+          </article>
+        </a>
+
+        
+        <a href="https://www.youtube.com/watch?v=xBDcqohHJ6o">
+          <article>
+            <figure>
+              <img src="./assets/proccess.webp" alt="">
+              <img src="./assets/poor.jpg" class="over" alt="">
+            </figure>
+            <section>
+              <h3>Our proccess</h3>
+              <p>A good visual</p>
+            </section>
+          </article>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Crown Royal (Student Project)</p>
+    </footer>
+  </div>
+
+  <script>
+    const enterBtn = document.getElementById('enter-btn');
+    const landing = document.getElementById('landing');
+
+    enterBtn.addEventListener('click', () => {
+      landing.classList.add('slide-up');
+    });
+  </script>
+</body>
+</html>
